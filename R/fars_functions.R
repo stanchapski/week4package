@@ -6,7 +6,7 @@
 #' @return a data frame
 #' @importFrom readr read_csv
 #' @note stops if \code{filename} does not exist
-#' @examples \dontrun{data <- fars_read(make_filename("2013")}
+#' @examples \dontrun{data <- fars_read(make_filename("2013"))}
 #' @export
 fars_read <- function(filename) {
   if(!file.exists(filename))

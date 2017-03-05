@@ -19,5 +19,5 @@ This funtion reads the file located at \code{filename}.
 stops if \code{filename} does not exist
 }
 \examples{
-\dontrun{data <- fars_read(make_filename("2013")}
+\dontrun{data <- fars_read(make_filename("2013"))}
 }
